@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaFolder, FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaArrowRight } from 'react-icons/fa';
 
 function App() {
@@ -33,6 +32,12 @@ function App() {
       description: 'Fale comigo por WhatsApp ou Email',
       icon: <FaEnvelope size={20} />,
       url: 'https://wa.me/5581997713780',
+    },
+    {
+      title: 'Crie seu Hub de Links também',
+      description: 'Monte sua página personalizada e compartilhe seus links',
+      icon: <img src="/LOGO.png" alt="" className="w-7 h-7 rounded-full object-cover" />,
+      url: 'https://mylinkedit.vercel.app/',
     },
   ];
 
